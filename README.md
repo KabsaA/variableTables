@@ -1,4 +1,4 @@
-# variableTables
+# Variable Tables
 
 Variable	Value
 nums	[2,7,11,15]
@@ -15,9 +15,11 @@ Assumptions: You may assume that each input would have exactly one solution, and
 
 Example Input: Given nums = [2, 7, 11, 15], target = 9,
 
-| Attempt | #1  | #2  |
-| :---:   | :-: | :-: |
-| Seconds | 301 | 283 |
+| Nums | [2,7,11,15] |
+| :---:   | :-: |
+| target | 9 | 
+| :---:   | :-: | 
+| index | [0,1] |
 
 ## Question 2: Given two arrays of integers nums and index. Your task is to create target array under the following rules:
 * Initially target array is empty.
