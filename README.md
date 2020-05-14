@@ -1,11 +1,5 @@
 # Variable Tables
 
-Variable	Value
-nums	[2,7,11,15]
-target	9
-index	[0,1]
-
-
 ## Question 1 : Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
 
@@ -17,8 +11,7 @@ Example Input: Given nums = [2, 7, 11, 15], target = 9,
 
 | Nums | [2,7,11,15] |
 | :---:   | :-: |
-| target | 9 | 
-| :---:   | :-: | 
+| target | 9 |  
 | index | [0,1] |
 
 ## Question 2: Given two arrays of integers nums and index. Your task is to create target array under the following rules:
@@ -27,12 +20,7 @@ Example Input: Given nums = [2, 7, 11, 15], target = 9,
 * Repeat the previous step until there are no elements to read in nums and index.
 Return the target array.
 
-Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
 
-Variable	Value
-nums	[0,1,2,3,4]
-ind	Index value
-
-| Attempt | #1  | #2  |
+| nums | [0,1,2,3,4]  | 
 | :---:   | :-: | :-: |
-| Seconds | 301 | 283 |
+| index | [0,1,2,2,1] |  
